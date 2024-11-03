@@ -9,8 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "rgb(var(--primary) / <alpha-value>)",
+        "primary-emphasis": "rgb(var(--primary-emphasis) / <alpha-value>)",
+        secondary: "rgb(var(--secondary) / <alpha-value>)",
+        "secondary-emphasis": "rgb(var(--secondary-emphasis) / <alpha-value>)",
+      },
+      backgroundColor: {
+        primary: "rgb(var(--primary) / <alpha-value>)",
+        "primary-emphasis": "rgb(var(--primary-emphasis) / <alpha-value>)",
+        secondary: "rgb(var(--secondary) / <alpha-value>)",
+        "secondary-emphasis": "rgb(var(--secondary-emphasis) / <alpha-value>)",
       },
     },
   },
